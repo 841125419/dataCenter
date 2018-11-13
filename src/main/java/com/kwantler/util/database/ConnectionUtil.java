@@ -1,4 +1,4 @@
-package com.kwantler.util;
+package com.kwantler.util.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

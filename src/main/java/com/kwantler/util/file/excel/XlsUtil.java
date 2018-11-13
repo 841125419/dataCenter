@@ -1,0 +1,14 @@
+package com.kwantler.util.file.excel;
+
+public class XlsUtil {
+    public static void getContent(String fileName, String columns) {
+        System.out.println(Thread.currentThread().getName()+":xls我进来了");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(Thread.currentThread().getName()+":xls我出去了");
+    }
+}

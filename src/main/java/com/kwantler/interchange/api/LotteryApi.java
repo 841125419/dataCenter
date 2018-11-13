@@ -2,7 +2,7 @@ package com.kwantler.interchange.api;
 
 import com.kwantler.business.LotteryInfo;
 import com.kwantler.log.AbstractLogger;
-import com.kwantler.util.PureNetUtil;
+import com.kwantler.util.net.PureNetUtil;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 

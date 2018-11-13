@@ -1,4 +1,4 @@
-package com.kwantler.util;
+package com.kwantler.util.net;
 
 import java.io.*;
 import java.net.HttpURLConnection;

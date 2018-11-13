@@ -1,6 +1,6 @@
 package com.kwantler.database;
 
-import com.kwantler.util.ConnectionUtil;
+import com.kwantler.util.database.ConnectionUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
