@@ -2,13 +2,14 @@ package com.kwantler.interchange.api;
 
 import com.kwantler.business.LotteryInfo;
 import com.kwantler.log.AbstractLogger;
+import com.kwantler.util.common.ConfigProperties;
 import com.kwantler.util.net.PureNetUtil;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 public class LotteryApi {
     //接口地址,因为只需要传入一个固定的key为参数,所以设为常量
-    private static final String URL= "http://apis.juhe.cn/lottery/types?key=a75f8e3a8eb2901fcbcb92bd6fb286c4";
+    private static final String URL= ConfigProperties.getProperties("url_lottery");
     AbstractLogger log = AbstractLogger.getChainOfLoggers();
     public void getLottery(){
         //通过api获取数据

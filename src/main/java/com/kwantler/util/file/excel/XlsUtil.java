@@ -1,6 +1,6 @@
 package com.kwantler.util.file.excel;
 
-public class XlsUtil {
+public class XlsUtil implements ExcelHandler{
     public static void getContent(String fileName, String columns) {
         System.out.println(Thread.currentThread().getName()+":xls我进来了");
         try {
@@ -10,5 +10,9 @@ public class XlsUtil {
         }
 
         System.out.println(Thread.currentThread().getName()+":xls我出去了");
+    }
+
+    public String[][] getContent() {
+        return new String[0][];
     }
 }
