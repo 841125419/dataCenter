@@ -1,28 +1,21 @@
 package com.kwantler.util.file.excel.event.xls;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.util.Date;
 
 import com.kwantler.util.common.ConfigProperties;
-import org.apache.poi.hssf.eventusermodel.HSSFEventFactory;
-import org.apache.poi.hssf.eventusermodel.HSSFRequest;  
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;  
-  
+import com.kwantler.util.file.excel.event.ExcelHandler;
+import com.kwantler.util.file.excel.event.service.ServiceOper;
+
 public class Test {  
       
     public static void main(String[] args) throws Exception{
-        Thread.sleep(10000);
         Long d = new Date().getTime();
-        FileInputStream file = new FileInputStream(ConfigProperties.getProperties("reservoirUploadFilePath1"));
-        POIFSFileSystem poifs = new POIFSFileSystem(file);  
-        InputStream din = poifs.createDocumentInputStream("Workbook");  
-        HSSFRequest request = new HSSFRequest();  
-        request.addListenerForAllRecords(new HxlsAbstract());  
-        HSSFEventFactory factory = new HSSFEventFactory();  
-        factory.processEvents(request, din);  
-        file.close();  
-        din.close();
+        ServiceOper serviceOper = (curRow,rowValueMap)->{
+            System.out.println("current row is "+curRow+", it's spend time:"+(new Date().getTime() - d)+"ms, current row data is:"+rowValueMap);
+        };
+        new ExcelHandler().readParse(serviceOper,
+                ConfigProperties.getProperties("reservoirUploadFilePath1"),0);
+
         System.out.println("it need "+(new Date().getTime() - d)+"s to getconeten!");
     }  
   
