@@ -1,0 +1,9 @@
+*.log
+*.temp
+/target
+/dataCenter/target
+/Monitor/target
+/dataCenter/logs
+/.idea
+/dataCenter/.idea
+/Monitor/.idea
