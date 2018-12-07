@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function hello(){
+            alert("hello");
+        }
+        //重复执行某个方法
+        var t1 = window.setInterval(hello,1000);
+        var t2 = window.setInterval("hello()",3000);
+        //去掉定时器的方法
+        window.clearInterval(t1);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
