@@ -2,6 +2,7 @@ package com.kwantler.websocket.websocket;
 
 import com.alibaba.fastjson.JSON;
 import com.kwantler.websocket.entity.Message;
+import com.kwantler.websocket.entity.MessageType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -21,7 +22,7 @@ public class AliveWebSocket extends WebSocket{
     public void onOpen(@PathParam("username") String username, Session session) {
         System.out.println(new Date()+"：websocket连接开启");
         init(username,session);
-        Message message = new Message(username+"上线",new String[]{username},true);
+        Message message = new Message(username+"上线",MessageType.ON_LINE, new String[]{username},true);
         sendMessageToOnlineUser(message);
     }
 
@@ -36,7 +37,7 @@ public class AliveWebSocket extends WebSocket{
     public void onClose() {
         System.out.println(new Date()+"：websocket连接关闭");
         clients.remove(username);
-        Message message = new Message(username+"已经下线",new String[]{},true);
+        Message message = new Message(username+"已经下线",MessageType.OFF_LINE,new String[]{},true);
         sendMessageToOnlineUser(message);
     }
 

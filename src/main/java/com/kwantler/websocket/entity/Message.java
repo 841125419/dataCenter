@@ -103,12 +103,12 @@ public class Message implements Serializable {
                 '}';
     }
 
-    public Message(String msg, String[] excludeUsers, boolean sendAll) {
-        this(msg,null,excludeUsers,sendAll);
+    public Message(String msg, int messageType, String[] excludeUsers, boolean sendAll) {
+        this(msg,messageType,null, excludeUsers,sendAll);
     }
 
-    public Message(String msg, String[] onlineUsers, String[] excludeUsers, boolean sendAll) {
-        this(null,null,msg,-1,onlineUsers,excludeUsers,sendAll);
+    public Message(String msg, int messageType, String[] onlineUsers, String[] excludeUsers, boolean sendAll) {
+        this(null,null,msg,messageType,onlineUsers,excludeUsers,sendAll);
     }
 
     public Message(String fromUsername, String toUsername, String msg, int messageType) {
@@ -127,5 +127,8 @@ public class Message implements Serializable {
         this.onlineUsers = onlineUsers;
         this.excludeUsers = excludeUsers;
         this.sendAll = sendAll;
+    }
+
+    public Message() {
     }
 }
