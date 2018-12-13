@@ -1,6 +1,5 @@
 package com.kwantler.business;
 
-import com.kwantler.database.BaseCURD;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
@@ -11,9 +10,9 @@ public class LotteryInfo {
         if (arr == null || arr.size() == 0){
             System.out.println("获取的数据为空，arr："+arr);
         }else{
-            BaseCURD baseCURD = new BaseCURD();
             for (Object o:arr) {
-                baseCURD.insert((Map<String, Object>)JSONObject.fromObject(o),"LotteryInfo");
+                //插入
+                //Map<String, Object>)JSONObject.fromObject(o)
             }
         }
     }

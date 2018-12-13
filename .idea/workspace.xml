@@ -2,150 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2423fe3-7824-4afc-8282-c498548fb1f4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/Redis1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/Redis1ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/util/common/ObjectMaperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/ObjectMaperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/SpringListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/Redis1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/Redis1ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/Redis1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/TestService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testRedis1/src/main/resources/config/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monitor/Monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Monitor/Monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCenter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCenter/dataCenter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/commbridge.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/DataCenterApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/bo/JobAndTriggerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/bo/impl/JobAndTriggerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/business/LotteryInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/config/RestClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/config/SchedulerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/config/TioadJobFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/controller/AliveController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/controller/JobController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/database/BaseCURD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/entity/JobAndTrigger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/api/LotteryApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/client/hello/JwsClientHello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsersResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetValueResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/publish/hello/JwsServiceHello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/wsdl/service/publish/hello/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/mybatis/quartz/JobAndTriggerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/task/Job1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/task/PoliceTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/task/job/BaseJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/common/ConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/common/ResultData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/database/ConnectionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/ExcelHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/service/ServiceOper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xls/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xls/XLSParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/TestExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/XLSXParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/ExampleEventUserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/ExcelHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/ExcelOper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/ExcelUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/XLS2CSVmra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/XLSX2CSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/XlsUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/XlsxUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/ftp/FtpTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/ftp/FtpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/net/ExcelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/util/net/PureNetUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/config/WebSocketConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/MessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/AliveWebSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/WebSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mytatis/mapper/quartz/JobAndTriggerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/quartz.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kwantler/interchange/GetCityList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kwantler/interchange/GetWeatherSignAndTypeList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kwantler/interchange/PureNetUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kwantler/interchange/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kwantler/interchange/WeatherReportByCity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/DataCenterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/business/LotteryInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/database/BaseCURD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/api/LotteryApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/client/hello/JwsClientHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsersResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/GetValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/GetValueResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/invoke/hello/package-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/publish/hello/JwsServiceHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/interchange/wsdl/service/publish/hello/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/common/ConfigProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/common/ResultData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/database/ConnectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/ExcelHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/service/ServiceOper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/xls/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/xls/XLSParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/xlsx/TestExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/event/xlsx/XLSXParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExampleEventUserModel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExampleEventUserModel$SheetHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExampleEventUserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExcelHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExcelOper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExcelUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/ExcelUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XLS2CSVmra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XLSX2CSV$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XLSX2CSV$SheetToCSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XLSX2CSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XlsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/excel/otherDemo/XlsxUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/ftp/FtpTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/file/ftp/FtpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/net/ExcelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/util/net/PureNetUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/websocket/config/WebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/websocket/entity/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/websocket/entity/MessageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/websocket/websocket/AliveWebSocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kwantler/websocket/websocket/WebSocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dataCenter-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kwantler/interchange/GetCityList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kwantler/interchange/GetWeatherSignAndTypeList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kwantler/interchange/PureNetUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kwantler/interchange/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kwantler/interchange/WeatherReportByCity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/database/BaseCURD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/api/LotteryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/api/LotteryApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/client/hello/JwsClientHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/client/hello/JwsClientHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/GetUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetUsersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/GetUsersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/GetValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/GetValueResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/GetValueResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/JwsServiceHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/JwsServiceHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/JwsServiceHelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/invoke/hello/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/invoke/hello/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/publish/hello/JwsServiceHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/publish/hello/JwsServiceHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/wsdl/service/publish/hello/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/wsdl/service/publish/hello/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/GetCityList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/GetCityList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/GetWeatherSignAndTypeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/GetWeatherSignAndTypeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/PureNetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/PureNetUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/WeatherReportByCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/WeatherReportByCity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <ignored path="$PROJECT_DIR$/dataCenter/target/" />
+    <ignored path="$PROJECT_DIR$/testRedis/target/" />
+    <ignored path="$PROJECT_DIR$/testRedis1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataCenterRep$Test.ic" NAME="Test Coverage Results" MODIFIED="1544444478110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kwantler.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DataCenterRep$Test_test.ic" NAME="Test.test Coverage Results" MODIFIED="1544444532159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kwantler.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -163,28 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Monitor/test.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="JobManager.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Monitor/JobManager.html">
+      <file leaf-file-name="TestRedis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LotteryInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="308">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,51 +116,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LotteryApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/api/LotteryApi.java">
+      <file leaf-file-name="DataCenterApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/DataCenterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="198">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseCURD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/database/BaseCURD.java">
+      <file leaf-file-name="LotteryInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoliceTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/task/PoliceTask.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/task/Job1.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/util/database/ConnectionUtil.java">
+      <file leaf-file-name="SpringListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/SpringListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="154">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectMaperUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/ObjectMaperUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -269,11 +237,8 @@
       <find>haracters</find>
       <find>XLSX2CSV</find>
       <find>minColumns</find>
-      <find />
       <find>Encountered</find>
-      <find />
       <find>lastContents</find>
-      <find />
       <find>SpringApplication</find>
       <find>server</find>
       <find>send</find>
@@ -283,6 +248,7 @@
       <find>JSON.toJSONString</find>
       <find>connnectWebSocket</find>
       <find>hello</find>
+      <find>monitor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -291,42 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/ExcelReaderUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/ExcelAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/ServiceOper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/FtpTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/ExcelHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/ftp/FtpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/userModel/ExampleEventUserModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/otherDemo/ExampleEventUserModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/service/ServiceOper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xls/HxlsAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/ExcelAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/XLSXAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/XLSXParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xls/XLSParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xlsx/TestExcel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/xls/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/util/file/excel/event/ExcelHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/PushWebSocketServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/ChatServer.java" />
-        <option value="$PROJECT_DIR$/../Monitor/index.html" />
-        <option value="$PROJECT_DIR$/../Monitor/js/myindex.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/ResponseMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/ReceiveMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/queue.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/SubController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/topic.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/monitor/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/config/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/ReceiveMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/MessageType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/WebSocket.java" />
-        <option value="$PROJECT_DIR$/../Monitor/test.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/config/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kwantler/controller/AliveController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/AliveWebSocket.java" />
         <option value="$PROJECT_DIR$/../Monitor/socket.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/Message.java" />
@@ -342,6 +272,42 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/mytatis/mapper/quartz/JobAndTriggerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kwantler/interchange/api/LotteryApi.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/RedisApplication.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/controller/controller.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/Redis1Service.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/SpringListener.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/testRedis1/pom.xml" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/Redis1Application.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/User.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/TestService.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/entity/User.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/test.java" />
+        <option value="$PROJECT_DIR$/testRedis/pom.xml" />
+        <option value="$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/App.java" />
+        <option value="$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl1.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/ObjectMaperUtil.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/Redis1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dataCenter/pom.xml" />
+        <option value="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/Redis1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/Test.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/interchange/TestRedis.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/App.java" />
+        <option value="$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestRedis.java" />
+        <option value="$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/Test.java" />
       </list>
     </option>
   </component>
@@ -372,29 +338,30 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dataCenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="testRedis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testRedis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="123" />
+    <option name="x" value="28" />
+    <option name="y" value="64" />
     <option name="width" value="1400" />
-    <option name="height" value="830" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -412,6 +379,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -421,94 +389,97 @@
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testRedis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="interchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="interchange" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kwantler" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
@@ -517,20 +488,32 @@
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="json-lib-2.4-jdk15.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="json-lib-2.4-jdk15.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:2.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-2.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataCenterRep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -547,37 +530,44 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Monitor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataCenter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\java\DataCenterRep\testRedis1\src\main\resources\config" />
       <recent name="D:\project\java\songtaoguanqu\Monitor" />
       <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\resources\mytatis\mapper" />
       <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\java\com\kwantler\interchange\wsdl\service\invoke\hello" />
       <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\java\com\kwantler\interchange\wsdl\service\invoke" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kwantler.task" />
-      <recent name="com.kwantler.quartz" />
-      <recent name="com.kwantler.task.job" />
-      <recent name="com.kwantler.entity" />
+      <recent name="com.kwantler" />
+      <recent name="com.kwantler.util.common" />
+      <recent name="com.kwantler.interchange" />
       <recent name="com.kwantler.controller" />
+      <recent name="com.kwantler.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\java\DataCenterRep\dataCenter\src\main\java\com\kwantler\controller" />
+      <recent name="D:\project\java\DataCenterRep\dataCenter\src\main\java\com\kwantler\bo\impl" />
+      <recent name="D:\project\java\DataCenterRep\dataCenter\src\main\java\com\kwantler\bo" />
       <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\resources" />
       <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\java\com\kwantler\business" />
-      <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\java\com\kwantler" />
-      <recent name="D:\project\java\songtaoguanqu\Monitor" />
-      <recent name="D:\project\java\songtaoguanqu\dataCenter\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -589,9 +579,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.JobManager.html">
+  <component name="RunManager" selected="JUnit.TestRedis (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testRedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kwantler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kwantler" />
+      <option name="MAIN_CLASS_NAME" value="com.kwantler.Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRedis (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kwantler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kwantler" />
+      <option name="MAIN_CLASS_NAME" value="com.kwantler.TestRedis" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dataCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kwantler.interchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kwantler.interchange" />
+      <option name="MAIN_CLASS_NAME" value="com.kwantler.interchange.TestRedis" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testRedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kwantler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kwantler" />
+      <option name="MAIN_CLASS_NAME" value="com.kwantler.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -609,10 +691,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JobManager.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dataCenter/Monitor/JobManager.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dataCenter/Monitor/index.html" />
-    <configuration name="socket.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dataCenter/Monitor/socket.html" />
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dataCenter/Monitor/test.html" />
     <configuration name="DataCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dataCenter" />
       <extension name="coverage">
@@ -646,19 +724,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="JUnit.Test" />
+      <item itemvalue="JUnit.Test.test" />
+      <item itemvalue="JUnit.TestRedis" />
+      <item itemvalue="JUnit.TestRedis (1)" />
       <item itemvalue="Spring Boot.DataCenterApplication" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.socket.html" />
-      <item itemvalue="JavaScript Debug.test.html" />
-      <item itemvalue="JavaScript Debug.JobManager.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.JobManager.html" />
+        <item itemvalue="JUnit.TestRedis (1)" />
+        <item itemvalue="JUnit.Test" />
         <item itemvalue="Spring Boot.DataCenterApplication" />
-        <item itemvalue="JavaScript Debug.socket.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JUnit.TestRedis" />
+        <item itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -684,7 +762,10 @@
       <workItem from="1543798551946" duration="55460000" />
       <workItem from="1544098236668" duration="411000" />
       <workItem from="1544144917719" duration="15433000" />
-      <workItem from="1544403677058" duration="1038000" />
+      <workItem from="1544403677058" duration="17805000" />
+      <workItem from="1544662878861" duration="251000" />
+      <workItem from="1544663350459" duration="990000" />
+      <workItem from="1544669607180" duration="2860000" />
     </task>
     <task id="LOCAL-00001" summary="编写excel导入功能，进行中">
       <created>1542124015024</created>
@@ -710,8 +791,40 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test - 2018.12.13 at 11h 18m 37s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_(1) - 2018.12.13 at 11h 19m 20s.xml">
+      <configuration name="TestRedis (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_(1) - 2018.12.13 at 11h 32m 12s.xml">
+      <configuration name="TestRedis (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_(1) - 2018.12.13 at 11h 33m 13s.xml">
+      <configuration name="TestRedis (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.12.13 at 11h 33m 40s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.12.13 at 11h 34m 00s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.12.13 at 11h 34m 48s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.12.13 at 11h 35m 24s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.12.13 at 11h 36m 21s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_(1) - 2018.12.13 at 11h 36m 39s.xml">
+      <configuration name="TestRedis (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192275000" />
+    <option name="totallyTimeSpent" value="213143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,7 +840,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007163" side_tool="true" weight="0.35192564" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295129" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32879657" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="4" />
       <window_info id="Capture Tool" order="2" />
@@ -737,14 +850,16 @@
       <window_info anchor="right" id="JSF" order="4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3864542" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38512617" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891247" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32536522" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32934928" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934928" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.40371847" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.32934928" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32855093" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.34528553" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32802126" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2965616" />
@@ -754,7 +869,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32802126" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32985073" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -825,8 +940,14 @@
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/SpringListener.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="86" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -839,273 +960,316 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Monitor/js/myindex.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/monitor/SubController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/monitor/WebSocketConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/monitor/ResponseMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/queue.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/topic.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/monitor/ReceiveMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/jquery.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.2.RELEASE/spring-boot-2.0.2.RELEASE.jar!/org/springframework/boot/CommandLineRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="110">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/MessageType.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/resources/config/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/Redis1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar!/org/apache/tomcat/websocket/pojo/PojoEndpointServer.class">
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="172">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar!/org/apache/tomcat/websocket/pojo/PojoEndpointBase.class">
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8070">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/AbstractOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/bo/impl/TestSeviceImpl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis1/src/main/java/com/kwantler/redis/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="806" column="24" selection-start-line="806" selection-start-column="24" selection-end-line="806" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40986">
+          <caret line="1991" column="24" selection-start-line="1991" selection-start-column="24" selection-end-line="1991" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/SerializationFeature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5-sources.jar!/com/fasterxml/jackson/databind/SerializationFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
+          <folding>
+            <element signature="e#760#1226#0" />
+            <element signature="e#1260#1760#0" />
+            <element signature="e#1959#2650#0" />
+            <element signature="e#2687#3037#0" />
+            <element signature="e#3078#3818#0" />
+            <element signature="e#3851#4352#0" />
+            <element signature="e#4575#5393#0" />
+            <element signature="e#5427#6046#0" />
+            <element signature="e#6276#7423#0" />
+            <element signature="e#7466#7874#0" />
+            <element signature="e#7922#8841#0" />
+            <element signature="e#8885#9535#0" />
+            <element signature="e#9586#9923#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Monitor/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/RedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Monitor/test.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="548">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/WebSocket.java">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/Redis1Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/service/impl/Redis1ServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4631" column="4" selection-start-line="4631" selection-start-column="4" selection-end-line="4631" selection-end-column="4" />
+        <state relative-caret-position="548">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar!/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/websocket/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/websocket/websocket/AliveWebSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Monitor/socket.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/util/net/PureNetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/controller/AliveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/business/LotteryInfo.java">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/mybatis/quartz/JobAndTriggerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/bo/JobAndTriggerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/bo/impl/JobAndTriggerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/config/RestClientConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/config/SchedulerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/config/TioadJobFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/controller/JobController.java">
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/controller/JobController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="140" column="30" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/entity/JobAndTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/task/job/BaseJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/task/Job1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/task/PoliceTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/DataCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mytatis/mapper/quartz/JobAndTriggerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kwantler/interchange/api/LotteryApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Monitor/JobManager.html" />
-    <entry file="file://$PROJECT_DIR$/dataCenter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Monitor/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Monitor/JobManager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONArray.class">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/Redis1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/interchange/api/LotteryApi.java">
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="176">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/util/database/ConnectionUtil.java">
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/Redis1Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java">
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/bo/RedisService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1114,26 +1278,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/database/BaseCURD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/business/LotteryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/task/PoliceTask.java">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/ObjectMaperUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-132">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/task/Job1.java">
+    <entry file="file://$PROJECT_DIR$/testRedis/src/main/java/com/kwantler/redis/common/SpringListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/DefaultValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/main/java/com/kwantler/DataCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRedis/src/test/java/com/kwantler/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataCenter/src/test/java/com/kwantler/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

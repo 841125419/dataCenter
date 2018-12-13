@@ -10,6 +10,15 @@ spring:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     username: sa
     password: 111
+  redis:
+    hostName: 127.0.0.1
+    port: 6379
+    database: 0
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -2
 
 
 mybatis:
